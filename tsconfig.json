@@ -4,8 +4,8 @@
     "baseUrl": "./src",
     "paths": {
       "@forms/*": [
-        "modules/*/index",
-        "modules/*"
+        "modules/*/*.index",
+        "modules/*",
       ]
     },
     "lib": [
