@@ -10,6 +10,7 @@ const AuthForm = ({ signIn }: ReduxProps) => {
     getFieldValue,
     handleChange,
     isValid,
+    resetFields,
   } = useQuickForm(['', '']);
 
   const firstname = getFieldValue<string>(FIRSTNAME);
@@ -24,6 +25,8 @@ const AuthForm = ({ signIn }: ReduxProps) => {
     if (isValid) {
       const person = { firstname, lastname };
       signIn(person);
+
+      resetFields();
     } else {
       console.error('An error occured');
     }
