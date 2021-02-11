@@ -5,7 +5,7 @@
     "paths": {
       "@forms/*": [
         "modules/*/index",
-        "modules/*",
+        "modules/*"
       ]
     },
     "lib": [
@@ -32,6 +32,6 @@
     ]
   },
   "include": [
-    "src",
+    "src"
   ]
 }
