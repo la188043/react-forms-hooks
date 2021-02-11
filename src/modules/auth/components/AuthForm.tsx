@@ -1,5 +1,5 @@
-import Input from '@forms/shared/components/Input';
-import useQuickForm from '@forms/shared/hooks/useQuickForm.hook';
+import Input from 'modules/shared/components/Input';
+import useQuickForm from 'modules/shared/hooks/useQuickForm.hook';
 import React from 'react';
 import { connect, ConnectedProps } from 'react-redux';
 import * as authActions from '../auth.actions';

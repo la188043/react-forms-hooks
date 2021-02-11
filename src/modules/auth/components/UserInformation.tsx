@@ -1,4 +1,4 @@
-import { UserState } from '@forms/shared/types/reducers/UserState';
+import { UserState } from 'modules/shared/types/reducers/UserState';
 import React from 'react';
 import { connect, ConnectedProps } from 'react-redux';
 

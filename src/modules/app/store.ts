@@ -1,4 +1,4 @@
-import authReducer from '@forms/auth/auth.reducer';
+import authReducer from 'modules/auth/auth.reducer';
 import { compose, createStore } from 'redux';
 
 declare global {
