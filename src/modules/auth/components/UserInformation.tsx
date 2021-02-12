@@ -9,6 +9,8 @@ const UserInformation = ({ user, signOut }: ReduxProps) => (
       ? (
         <div>
           <h2>
+            Utilisteur connecté:
+            {' '}
             {user.firstname}
             {' '}
             {user.lastname}

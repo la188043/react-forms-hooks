@@ -52,7 +52,7 @@ const AuthForm = ({ signIn }: ReduxProps) => {
         required
       />
 
-      <button type="submit">Afficher</button>
+      <button type="submit">Connexion</button>
     </form>
   );
 };
